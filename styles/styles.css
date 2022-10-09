@@ -114,3 +114,6 @@ p {
 .content p {
   font-size: 14px;
 }
+.content a {
+  text-decoration: none;
+}
