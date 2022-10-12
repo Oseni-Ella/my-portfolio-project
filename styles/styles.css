@@ -56,6 +56,10 @@ p {
   line-height: 27px;
   padding: 15px 30px;
   text-decoration: none;
+  transition: all 150ms ease-in-out;
+}
+.btn-branding:hover {
+  font-size: 20px;
 }
 .btn-branding-outline {
   color: var(--branding-color);
@@ -94,9 +98,14 @@ p {
     padding: 0;
     text-align: center;
   }
+  .work {
+    text-align: center;
+    padding: 0;
+  }
 }
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 10px;
+  margin-right: 0;
 }
 .content-container h1 {
   font-size: 64px;
@@ -118,6 +127,10 @@ p {
 }
 .content a {
   text-decoration: none;
+}
+.my-img {
+  border-radius: 30px;
+  height: 400px;
 }
 nav {
   padding: 20px;
@@ -186,3 +199,10 @@ footer .social-links a:hover {
   color: white;
   background: var(--branding-color);
 }
+.enlarge {
+  transition: all 150ms ease-in-out;
+}
+.enlarge:hover {
+  font-size: 40px;
+}
+
