@@ -168,7 +168,7 @@ footer {
 }
 
 footer .contact-box {
-  background: var(--secondary-color);
+  background-color: #e1b99a;
   padding: 30px 120px;
   border-radius: 10px;
 }
